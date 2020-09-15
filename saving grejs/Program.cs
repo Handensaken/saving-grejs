@@ -14,6 +14,9 @@ namespace saving_grejs
             float[] pos = {1.6f, 2.8f};
             HahaClass myNewClass = new HahaClass(pos, "hello", true);
 
+            FileStream file = File.Open(@"class.xml", FileMode.OpenOrCreate);
+            myNewClass = (HahaClass) serializer.Deserialize(file);
+            serializer.Serialize(file, myNewClass);
 
         }
     }
