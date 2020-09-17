@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<HahaClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <position>
+    <float>1000</float>
+    <float>1000</float>
+  </position>
+  <name>britta</name>
+  <alive>false</alive>
+</HahaClass>

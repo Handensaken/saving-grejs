@@ -6,15 +6,11 @@ namespace saving_grejs
     public class HahaClass
     {
 
-        private float[] position = {0.0f,0.0f};
-        private string name;
+        public float[] position = {0.0f,0.0f};
+        public string name;
 
-        private bool alive;
-        public HahaClass(float[] newPos, string newName, bool lifeStatus){
-            position = newPos;
-            name = newName;
-            alive = lifeStatus;
-        }
+        public bool alive;
+     
 
         public class HahaSubClass
         {
